@@ -13,7 +13,7 @@ git clone https://github.com/yntha/CastleClashClient.git
 
 ## Usage
 
-![screenshot](/img/Screenshot 2025-02-13 193356.png)
+![screenshot](img/screenshot.png)
 
 For now, it's just a simple client to view the broadcast chat channel. I might add more in the future, maybe even the ability to farm your own account, but no promises.
 
@@ -30,6 +30,6 @@ python -m castleclashclient
 4. Come back to PCAPdroid and press the stop button.
 5. In the Connections tab, find the connection to the login server, which should be using port 9300. Additionally, the hostname for the login server is in the format `loginX.cc.igotgames.net`, where `X` is the server number.
 6. In the Payload tab, you'll see a list of packets and their hex dump. Click the download button on the first packet and save it as "Raw Bytes".
-7. Assuming you have termux installed and have installed the python package, run the [gen_config.py](/gen_config.py) to generate a config file. Be sure to pass the path to the raw bytes file you just saved.
+7. Assuming you have termux installed and have installed the python package, run the [gen_config.py](gen_config.py) to generate a config file. Be sure to pass the path to the raw bytes file you just saved.
     7a. Optionally, if you prefer to do this on a pc, just upload the raw bytes file to your pc and run the script there.
 8. The script will update the config file with your user id and access key.
