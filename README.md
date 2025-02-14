@@ -13,6 +13,8 @@ git clone https://github.com/yntha/CastleClashClient.git
 
 ## Usage
 
+![screenshot](/img/Screenshot 2025-02-13 193356.png)
+
 For now, it's just a simple client to view the broadcast chat channel. I might add more in the future, maybe even the ability to farm your own account, but no promises.
 
 ```bash
